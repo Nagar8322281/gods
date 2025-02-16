@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  user-select: none;
+  background-color: #e8e8e8;
+}
+
+/* .cont {
+} */
+
+
+
+/*----- image-collection ------*/
+
+
+
+/* .favorite-title {
+  background-color: #282936;
+  color: white;
+  text-align: center;
+  margin-left: 250px;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+} */

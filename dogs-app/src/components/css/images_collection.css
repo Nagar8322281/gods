@@ -1,0 +1,40 @@
+.dogs {
+  margin-left: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+/* .col{
+  
+  } */
+.image-cont {
+  position: relative;
+}
+.dog {
+  margin: 5px;
+  width: 320px;
+}
+.like {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 20px;
+  opacity: 0;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.like:hover {
+  border: 1px solid white;
+}
+.image-cont:hover .like {
+  opacity: 1;
+}

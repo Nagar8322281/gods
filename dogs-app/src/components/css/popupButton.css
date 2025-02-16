@@ -1,0 +1,57 @@
+.popup-cont{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.popup-btn{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.popup-img{
+    border: 2px solid green;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.popup-window{
+    width: 250px;
+    max-height: 340px;
+    padding-bottom: 20px;
+    margin-top: 18px;
+    overflow: auto;
+    background-color: #282936;
+    border-radius: 30px;
+    position: relative;
+    color: white;
+}
+
+.popup-closer{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.popup-closer:hover{
+    background-color: #404158;
+}
+
+
+.profile-img{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.popup-user:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #282936, #404158, #282936);
+}
